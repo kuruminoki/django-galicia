@@ -4,15 +4,15 @@ from setuptools import setup
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
-    name = 'django-localflavor-es-ga',
+    name = 'django-l10n-es-ga',
     version = '0.1',
     description = 'Country-specific Django helpers for Galicia (Spain).',
     long_description = README,
     author = 'Afonso Fernandez Nogueira',
-    author_email = 'fonzzo+localflavor-es-ga@gmail.com',
+    author_email = 'fonzzo+l10n-es-ga@gmail.com',
     license='BSD',
-    url = 'https://bitbucket.org/fonso/django-localflavor-es-ga',
-    packages = ['django_localflavor_es_ga'],
+    url = 'https://bitbucket.org/fonso/django-l10n-es-ga',
+    packages = ['django_l10n_es_ga'],
     include_package_data = True,
     classifiers = [
         'Development Status :: 4 - Beta',
