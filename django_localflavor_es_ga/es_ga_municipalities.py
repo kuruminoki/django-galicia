@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-List of Galicia (Spain) municipalities as of January 2013 for use as select choices.
+List of Galicia (Spain) municipalities as of January 2013
+for use as select choices.
 
 Sorted alphabetically, ignoring initial articles.
 
