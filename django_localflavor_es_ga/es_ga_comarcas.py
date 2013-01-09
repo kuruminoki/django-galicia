@@ -12,8 +12,8 @@ as per the comarca listing by Francisco Ruiz at
 http://alarcos.esi.uclm.es/per/fruiz/pobesp/ter_com.htm
 """
 
-from django.utils.translation import ugettext_lazy as _
 from __future__ import unicode_literals
+from django.utils.translation import ugettext_lazy as _
 
 
 COMARCA_CHOICES = (
