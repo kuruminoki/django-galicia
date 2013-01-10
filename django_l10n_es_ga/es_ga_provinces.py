@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+"""
+List of Galician provinces for use as select choices.
+"""
 from __future__ import unicode_literals
 from django.utils.translation import ugettext_lazy as _
 
