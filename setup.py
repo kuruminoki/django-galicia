@@ -15,7 +15,7 @@ setup(
     packages = ['django_l10n_es_ga'],
     include_package_data = True,
     classifiers = [
-        'Development Status :: 4 - Beta',
+        'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
