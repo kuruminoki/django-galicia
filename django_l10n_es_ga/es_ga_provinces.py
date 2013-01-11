@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 List of Galician provinces for use as select choices.
+
+Also included is a dictionary mapping province codes to
+the codes of its municipalities.
 """
+
 from __future__ import unicode_literals
 from django.utils.translation import ugettext_lazy as _
 
@@ -13,6 +17,12 @@ PROVINCE_CHOICES = (
     ('36', _('Pontevedra')),
 )
 
+
+# Please note that each municipality code list below
+# is sorted according to their order in
+# es_ga_municipalities.MUNICIPALITY_CHOICES,
+# i.e., by the denomination with initial article at the
+# end, separated by a comma
 
 PROVINCES_WITH_MUNICIPALITIES = {
     '15': [

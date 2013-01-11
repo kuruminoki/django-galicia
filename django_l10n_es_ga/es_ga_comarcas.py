@@ -4,17 +4,17 @@ List of Galician comarcas (as of January 2013) to use as select choices.
 
 Sorted alphabetically, with initial articles at the end.
 
-Also included is a dictionary mapping each comarca
-to the list of municipalities it contains.
-
-The choice tuple value is the geographical code for the comarca,
-as per the comarca listing by Francisco Ruiz at
-http://alarcos.esi.uclm.es/per/fruiz/pobesp/ter_com.htm
+Also included is a dictionary mapping each comarca code
+to the list of municipality codes it contains.
 """
 
 from __future__ import unicode_literals
 from django.utils.translation import ugettext_lazy as _
 
+
+# The choice tuple value represents the geographical code for each comarca,
+# as per the comarca listing by Francisco Ruiz at
+# http://alarcos.esi.uclm.es/per/fruiz/pobesp/ter_com.htm
 
 COMARCA_CHOICES = (
     ('1232', _('Allariz-Maceda')),
@@ -72,6 +72,12 @@ COMARCA_CHOICES = (
     ('1218', _('Xallas')),
 )
 
+
+# Please note that each municipality code list below
+# is sorted according to their order in
+# es_ga_municipalities.MUNICIPALITY_CHOICES,
+# i.e., by the denomination with initial article at the
+# end, separated by a comma
 
 COMARCAS_WITH_MUNICIPALITIES = {
     '1201': [
