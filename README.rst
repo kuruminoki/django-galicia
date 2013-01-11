@@ -1,17 +1,20 @@
-=================
-django_l10n_es_ga
-=================
+==============
+django-galicia
+==============
 
 Country-specific Django helpers for Galicia (Spain), as in django-localflavor.
 
-What's in django_l10n_es_ga?
-============================
+What is django-galicia?
+=========================
 
-For now, just a couple of widgets:
+For now, it's just a couple of form widgets:
 
-* ESGAMunicipalitySelect: A ``Select`` widget that uses a list of Galician
+* GaliciaMunicipalitySelect: A ``Select`` widget that uses a list of Galician
   municipalities as its choices.
 
-* ESGAComarcaSelect: ``A Select`` widget that uses a list of Galician comarcas
+* GaliciaProvinceSelect: ``A Select`` widget that uses a list of Galician
+  provinces as its choices.
+
+* GaliciaComarcaSelect: ``A Select`` widget that uses a list of Galician comarcas
   as its choices.
 
