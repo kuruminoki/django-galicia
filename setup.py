@@ -11,7 +11,7 @@ setup(
     author = 'Afonso Fernandez Nogueira',
     author_email = 'fonzzo+django-galicia@gmail.com',
     license='BSD',
-    url = 'https://bitbucket.org/fonso/django-l10n-es-ga',
+    url = 'https://bitbucket.org/fonso/django-galicia',
     packages = ['django_galicia'],
     include_package_data = True,
     classifiers = [
