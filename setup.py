@@ -5,7 +5,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
     name = 'django-galicia',
-    version = '0.1',
+    version = '0.11',
     description = 'Django helpers for Galicia (Spain).',
     long_description = README,
     author = 'Afonso Fernandez Nogueira',
