@@ -23,7 +23,4 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
     ],
-    install_requires=[
-        'Django>=1.4',
-    ]
 )
